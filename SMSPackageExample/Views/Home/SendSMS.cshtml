@@ -1,0 +1,64 @@
+﻿<div class="alert alert-info">
+    @ViewBag.Msg
+</div>
+<form action="" method="post" class="form-horizontal">
+    <div class="row">
+        <div class="col-sm-5">
+            <div class="row">
+                <div class="col-sm-4">URL:</div>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" name="url" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">APP ID:</div>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" name="appid" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">User ID:</div>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" name="userid" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">pwd:</div>
+                <div class="col-sm-8">
+                    <input type="password" class="form-control" name="pwd" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">Sender id:</div>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" name="senderid" />
+                </div>
+            </div>
+           
+        </div>
+        <div class="col-sm-7">
+            <div class="row">
+                <div class="col-sm-4">No:</div>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" name="no" id="no" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">Message:</div>
+                <div class="col-sm-8">
+                    <textarea name="msg" id="msg" rows="5" cols="40" class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-8">
+                    <button class="btn btn-success">
+                        <i class="glyphicon glyphicon-check"></i>
+                        Send
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+</form>
